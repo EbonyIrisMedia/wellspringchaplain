@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+.container-prose p {
+  @apply leading-7 my-4;
+}
+.container-prose h2 {
+  @apply text-2xl font-semibold mt-8 mb-3;
+}
+.container-prose h3 {
+  @apply text-xl font-semibold mt-6 mb-2;
+}
