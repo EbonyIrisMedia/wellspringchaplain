@@ -26,7 +26,7 @@ export default function HomePage() {
             </div>
             <div className="relative aspect-[4/5] w-full">
               <Image
-                src="/jen-saries-2.webp"
+                src="/jen-saries-2-736x920.webp"
                 alt="Jen Saries"
                 fill
                 className="object-cover rounded-xl shadow"

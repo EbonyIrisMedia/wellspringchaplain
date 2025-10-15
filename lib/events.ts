@@ -17,7 +17,7 @@ export const events: Event[] = [
       "Strengthen relationships and build lasting connections. Open to AAPD staff, spouses, and singles. Practical tools for healthy relationships. Light refreshments provided.",
     date: "TBD",
     location: "Ann Arbor (details in RSVP)",
-    image: "/aapd-mini-conference-2.webp",
+    image: "/aapd-mini-conference-2-801x920.webp",
     ctaLabel: "RSVP & Learn More",
     ctaHref: "mailto:jen@wellspringchaplain.com"
   }
