@@ -16,7 +16,7 @@ export default function EventCard({ event }: { event: Event }) {
         {event.location && <div className="text-sm text-slate-500">Where: {event.location}</div>}
         <p className="mt-3">{event.summary}</p>
         {event.ctaHref && (
-          <Link href={event.ctaHref} className="inline-block mt-4 bg-brand text-white px-4 py-2 rounded-lg">
+          <Link href={event.ctaHref || "#"} className="inline-block mt-4 bg-brand text-white px-4 py-2 rounded-lg">
             {event.ctaLabel ?? "Learn More"}
           </Link>
         )}
